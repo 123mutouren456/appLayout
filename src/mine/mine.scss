@@ -1,0 +1,120 @@
+.mine{
+    background-color: #F1F0F5;
+    &>div{
+        background-color: #fff;
+    }
+    .header{
+        background-color: #84AF9B;
+        padding: 10px;
+        .tit{
+            text-align: center;
+            font-size: 14px;
+            color: #fff;
+            position: relative;
+            .setting{
+                position: absolute;
+                right: 0;
+                top: 0;
+            }
+        }
+        .person{
+            display: flex;
+            .img{
+                border-radius: 50%;
+            }
+            .info{
+                display: flex;
+                flex-grow: 1;
+                color: #fff;
+                flex-direction: column;
+                padding-top: 14px;
+                padding-left: 10px;
+                h3{
+                    color: #fff;
+                    margin-bottom: 5px;
+                }
+            }
+        }
+
+    }
+    .collect{
+        display: flex;
+        padding:10px 0;
+        margin-bottom: 10px;
+        &>div{
+            display: flex;
+            flex-grow: 3;
+            flex-direction: column;
+            text-align: center;
+            &>p{
+                margin-bottom: 10px;
+            }
+        }
+
+    }
+    .order{
+        padding: 0 10px;
+        margin-bottom: 10px;
+        .tit{
+            display: flex;
+            padding: 10px 0;
+            border-bottom: 1px solid #EFEFEF;
+            h4{
+                font-size: 14px;
+            }
+            &>h4,&>span{
+                display: flex;
+                flex-direction: column;
+            }
+            &>span{
+                flex-grow: 1;
+                text-align:right;
+                color: #B1B1B1;
+            }
+        }
+        .cate{
+            padding: 10px 0;
+            display: flex;
+            &>div{
+                display: flex;
+                flex-grow: 5;
+                flex-direction: column;
+                align-items: center;
+
+                img{
+                    margin-bottom: 10px;
+                }
+            }
+        }
+        
+    }
+
+    .box{
+        display: flex;  
+        padding: 15px 10px;
+
+        &>p{
+            display: flex;
+            flex-grow: 1;
+            span{
+                display: inline-block;
+                width: 18px;
+                height: 18px;
+                background-color:#84AF9B; 
+                margin-right: 10px;
+            }
+        }
+        &>span{
+            display: flex;
+            color: #B1B1B1;
+        }
+            
+    }
+    .border{
+        border-bottom: 1px solid #eee;
+    }
+
+
+
+
+}

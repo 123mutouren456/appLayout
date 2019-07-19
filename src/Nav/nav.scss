@@ -1,0 +1,22 @@
+
+@import "./../App/app";
+.nav{
+    clear: both;
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    border-top: 1px solid #eee;
+    background-color:#fff; 
+    z-index: 999;
+    a{
+        display: block;
+        padding: 10px 0;
+        text-align: center;
+        font-size: px2rem(24);
+        color: #999;
+        &.active{
+            color: #40a9ff;
+        }
+    }
+}

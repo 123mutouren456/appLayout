@@ -1,0 +1,108 @@
+.page1{
+    padding-bottom: 50px;
+    .swiper-container{
+         height: 220px;
+    }
+    .swiper-pagination{
+        top: 170px;
+        left: 50%;
+        margin-left: -20px;
+        .swiper-pagination-bullet{
+            margin-right: 8px;
+        }
+    }
+
+    .page-con{
+        position: relative;
+        padding: 0 3%;
+        .search{
+            position: absolute;
+            top: -18px;
+            left: 10%;
+            width: 80%;
+            z-index: 99;
+            input{
+                width: 100%;
+                height: 36px;
+                border: 1px solid #E8EBD2;
+                border-radius: 4px;
+                text-align: center;
+            }
+        }
+        .classify{
+            padding-top: 50px;
+            padding-bottom: 20px;
+            border-bottom: 1px solid rgb(184, 175, 175);
+            
+            li{
+                float: left;
+                width: 25%;
+                text-align: center;
+                color:#666;
+                font-size: 14px;
+                .bounds{
+                   width: 80px;
+                   height: 80px;
+                   border-radius: 40px;
+                   background-color: #F6A705; 
+                   margin: 0 auto;
+                   margin-bottom: 10px;
+                }
+                .yl{
+                    background-color: #F3C002;
+                }
+                .bl{
+                    background-color: #2694EA;
+                }
+                .sbl{
+                    background-color: #30D1BF;
+                }
+            }
+        }
+
+        .detail-con{
+            padding: 20px 0;
+            .title{
+                margin-bottom: 30px;
+                text-align: center;
+                .tit{
+                    color: #7D7D7D;
+                    font-size: 16px;
+                    margin-bottom: 10px;
+                }
+                .sub-tit{
+                    color: #D2D2D2;
+                }
+            }
+            ul li{
+                float: left;
+                width: 33.33%;
+                text-align: center;
+                .img{
+                    margin: 0 auto;
+                }
+                h4{
+                    font-size: 16px;
+                    color: #7d7d7d;  
+                    margin: 10px 0; 
+                }
+                &>p{
+                    color: #D2D2D2;
+                }
+            }
+
+            
+        }
+
+
+
+    }
+    .clear-fix:after{
+        clear: both;
+        content: '.';
+        font-size: 0;
+        visibility: hidden;
+        height: 0;
+        display: block;
+    }
+}

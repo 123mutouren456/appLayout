@@ -1,0 +1,133 @@
+.main-page{
+    padding-bottom: 50px;
+
+    .swiper-container{
+        height: 220px;
+    }
+    .swiper-pagination{
+        top: 200px;
+        left: 50%;
+        margin-left: -20px;
+        .swiper-pagination-bullet{
+            margin-right: 8px;
+        }
+    }
+
+    .main-con{
+        background-color: #F4F4F4;
+        .classify{
+            display: flex;
+            flex-wrap: wrap;
+            padding: 10px 5%;
+            background-color: #fff;
+            &>div{
+                display: flex;
+                width: 25%;
+                justify-content: center;
+                align-items: center;
+                flex-direction: column;
+                margin-bottom: 20px;
+                .icons{
+                    width: 70%;
+                    background: linear-gradient(#F99D54, #F1B845);
+                    border-radius: 45%;
+                    margin-bottom: 10px;
+                    box-shadow: 0 2px 2px #f7f2f2;
+                    &:after{
+                        content: "";
+                        display: block;
+                        padding-top: 100%;
+                    }
+                }
+                .bg-bl{
+                    background: linear-gradient(#2F92F7, #8CAAF2);
+                }
+                .bg-gn{
+                    background: linear-gradient(#4BD985, #9BED67);
+                }
+                .bg-rose{
+                    background: linear-gradient(#FB437F, #F864AE);
+                }
+                .bg-yl{
+                    background: linear-gradient(#FBC70F, #FAD918);
+                }
+                .bg-purple{
+                    background: linear-gradient(#7D53DD, #AA68FD);
+                }
+                .bg-light-blue{
+                    background: linear-gradient(#22CDBD, #3DF0DB);
+                }
+                .bg-red{
+                    background: linear-gradient(#FA474D, #FB6532);
+                }
+                
+
+            }
+        }
+
+        .service{
+            background-color: #fff;
+            padding: 10px 5%;
+            margin-top: 10px;
+            .title{
+                font-size: 14px;
+                font-weight: bold;
+                margin-bottom: 20px;
+                color: #555555;
+                &>span{
+                    color: #aaa;
+                    margin-left: 5px;
+                    font-weight: normal;
+                }
+            }
+            .box{
+                display: flex;
+                .item{
+                    margin-bottom: 6px;
+                    &>div{
+                        background-color: #F8F3F7;
+                        height: 100px;
+                    }
+                }
+            }
+            .box1{
+                .item{
+                    width: 50%;
+                    &:first-child{
+                        &>div{
+                            margin-right: 3px;
+                        }
+                    }
+                    &:last-child{
+                        &>div{
+                            margin-left: 3px;
+                        }
+                    }
+                }
+
+            }
+            .box2{
+                .item{
+                    width: 33.33%;
+                    &:nth-child(1){
+                        &>div{
+                            margin-right: 4px;
+                        }
+                    }
+                    &:nth-child(2){                   
+                        &>div{
+                            margin-right: 2px;
+                            margin-left: 2px;
+                        }
+                    }
+                    &:nth-child(3){
+                        &>div{
+                            margin-left: 4px;
+                        }
+                    }
+                }
+            }
+        }        
+    }   
+
+}
