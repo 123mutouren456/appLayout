@@ -7,6 +7,8 @@ import NotFound from 'bundle-loader?lazy&name=notFound!../NotFound/NotFound';
 import Weather from 'bundle-loader?lazy&name=weather!../weather_react/Weather';
 import MainPage from 'bundle-loader?lazy&name=weatherRedux!../mainPage/';
 import Mine from 'bundle-loader?lazy&name=Todos!../Mine/';
+import Cover from 'bundle-loader?lazy&name=Cover!../cover/cover';
+import Canvas from 'bundle-loader?lazy&name=Cover!../canvas/';
 
 const createComponent = (component) => (props) =>{
     return (
@@ -27,6 +29,8 @@ export default ()=>(
             <Route path="/weather" component = {createComponent(Weather)} />
             <Route path="/mainPage" component = {createComponent(MainPage)} />
             <Route path="/mine" component = {createComponent(Mine)} />
+            <Route path="/cover" component = {createComponent(Cover)} />
+            <Route path="/canvas" component = {createComponent(Canvas)} />
             <Redirect to="/home" />
         </Switch>
     </div>
